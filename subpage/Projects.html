@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Perez</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="topPage">
+        <h1>
+            Beatriz Perez
+        </h1>
+        <h2>
+            Computer engineer in Atlanta
+        </h2>
+    </div>
+    <nav class="navbar"> 
+        <ul>
+            <li><a href="../index.html"> Home </a></li>
+			<li><a href="Resume.html"> Resume </a></li>
+            <li><a href="Projects.html" class="currentPage"> Projects </a></li>
+			<li><a href="Involvements.html"> Involvements </a></li>
+        </ul>
+    </nav>
+
+
+	<div class="container"> 
+		<main> 
+			<article> 
+				<h3>Pomodoro Timer</h3> 
+				<p class="post-meta"> 
+                    #embedded #arduino #SPI #CAD #fusion360 #soloproject
+				</p> 
+				<p> 
+					This project implements the Pomodoro study technique, a time management method based on 25 minute focused work sessions followed by 5 minute breaks. 
+					The goal was to develop a dedicated, desk-mounted Pomodoro timer to enhance productivity through consistent time intervals. The device was fully designed, 
+					researched, and developed by me as a personal embedded systems project. I selected an Arduino microcontroller because of its PWM pins and integrated SPI interface, 
+					which enabled fast communication with the TFT display I chose to use. The system features an RGB LED for status indication, a user input button for selection, and 
+					a custom 3D printed enclosure that I designed in Fusion 360.
+					
+					
+				</p> 
+			</article> 
+
+			<article> 
+				<h3>Automated Cat Laser</h3> 
+				<p class="post-meta"> 
+                    #embedded #RaspberryPi #Python #Servos #lasermodule #CAD #soloproject
+				</p> 
+				<p> 
+					This project is an automated laser toy designed to provide interactive play and stimulation for my cat while she is home alone. It was developed using a Raspberry Pi 
+					running Python, which controls a laser module and two servo motors to direct the laser across the living room floor in dynamic patterns. A custom enclosure was designed in Fusion 360.
+					This project is currently being worked on and being expanded to include cameras. 
+				</p> 
+			</article> 
+
+			<article> 
+				<h3>Nighttime Care Sleeve</h3> 
+				<p class="post-meta"> 
+					#embedded #UI/UX #UserStories #RaspberryPi #PCBdesign #groupproject
+				</p> 
+				<p> 
+					Taking care of a newborn at night can be very difficult for parents. It can stress parents out from having to stay up all night 
+					which can result to emotional problems that negatively impact a parent's whole day and their own personal relationships with others. 
+					To address this, I developed a wearable device that parents can wear at night to monitor their stress levels brought about during Nighttime
+					care and help soothe it through guided breathing, soothing lights and music, and encouraging messages. This project includes
+					a wearable cuff with . There additionally is a baby monitor made from a microphone to monitor the audio levels where the baby is and send
+					an alert when there is unrest, attached to an Op-Amp to interpret sounds digitally through the Raspberry Pi.
+				</p> 
+			</article> 
+
+			<article> 
+				<h3>Robotics Design Team</h3> 
+				<p class="post-meta"> 
+					#robotics #electrical #arduino #motors #teensy #leadership #groupproject
+				</p>		
+				<p>
+					As part of a university robotics design team, I led and mentored a group of ten engineering students in the design and development of the electrical 
+					system for a robotic excavator built to compete in the NASA Lunabotics competition. My primary focus was on the excavation subsystem, where I researched 
+					and integrated motors, sensors, and load cells to enable effective regolith collection and measurement. This project involved close collaboration with
+					 mechanical, software, and systems engineering teams to ensure full integration of the robotic platform. The result was a fully functional excavation 
+					 robot designed to operate autonomously in a simulated lunar environment.
+				</p> 
+			</article> 
+
+
+			<article> 
+				<h3>7 Revolute Joint Robot</h3> 
+				<p class="post-meta"> 
+					#robotics #locomotion #roboticarm #jupyternotebook #resolved-ratecontroller #endeffector #soloproject
+					
+				</p> 
+				<p> 
+					This project involved simulating and controlling the 7-DOF KUKA iiwa 14 robotic arm to push a rubber duck across a table into a bucket. 
+					A resolved-rate controller was implemented to operate in end-effector space, enabling smooth trajectory tracking without explicit joint position computation.
+					The controller used PD control, Jacobian pseudo-inverse mapping, and gravity compensation to compute joint torques. The result was a stable and responsive robot 
+					simulation that completed the task with smooth, continuous motion.
+
+				</p> 
+			</article> 
+
+
+			<article> 
+				<h3>COVID Capacity Counter</h3> 
+				<p class="post-meta"> 
+					#computervision #opencv #ssd #tensorflow #centroidtracker #humandetection #soloproject
+				</p> 
+				<p> 
+					The COVID capacity counter project was created during the COVID times to help get real-time capacity numbers in buildings that could only hold a conversations
+					percentage of occupancy. Early on, there were humans manually counting people going in and out. So, with this project a camera could be set up and my program was 
+					made to capture these frames which then turned them into blobs to pass into the Mobilenet SSD to determine if there were humans present. The centroid tracker 
+					algorithm by pyimagesearch was implemented to be able to detect who was going in vs who was going out and connect multiple human detections within frames as one 
+					person.
+
+				</p> 
+			</article> 
+
+            <article> 
+				<h3>Regression Automation Tool</h3> 
+				<p class="post-meta"> 
+					#python #testautomation #TOML #multiprocessing #soloproject
+				</p> 
+				<p> 
+					This project was made for test automating at work. At my job, there are multiple python tests written to exercise different parts of the device under test (DUT). 
+					Sometimes, multiple tests need to be ran and in order to run them, the DUT must be connected, the test must be imported and initialized, and finally it can run.
+					The automation tool I created in Python helps automate the whole process. It sets a uniform standard for test launching and enables multi-test launching as well 
+					parallelization within Python tests through multiprocessing. The suite of tests can be done through TOML.
+
+				</p> 
+			</article> 
+
+
+
+		</main> 
+
+	</div> 
+
+    
+</body>
+</html>

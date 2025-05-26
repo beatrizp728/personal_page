@@ -1,0 +1,238 @@
+body { 
+    background-color: rgb(243, 238, 247);
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0; 
+    padding: 0; 
+    color: #4c4452;
+} 
+pre{
+    font-size: 80px;
+    font-family: "Lucida Console", Courier, monospace;
+    line-height: 3em;
+    color: #4c4452;
+    text-align: left;
+}
+
+main { 
+    flex: 2; 
+} 
+
+article { 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    margin-right: 10px; 
+} 
+
+article p { 
+    text-align: justify; 
+} 
+
+
+a{
+    color: #b7a4c6;
+    position:relative;
+    
+    }
+
+aside { 
+    flex: 1; 
+    background-color: #c9c9c9; 
+    padding: 10px; 
+} 
+
+
+h1{
+    padding: 0%;
+    font-size: 60px;
+    text-align: left;
+    color: #b7a4c6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    padding: 0%;
+    font-size: 20px;
+    margin-top: -2%;
+    color: #b1a8b9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    margin-top: 0%;
+    font-size: 20px;
+    text-align: center;
+    color: #b7a4c6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h4{
+    padding: 0%;
+    margin-top: 0%;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 3em;
+    text-align: left;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5{
+    padding: 0%;
+    padding-left: 5%;
+    font-size: 20px;
+    margin-top: -2%;
+    color: #b1a8b9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h6{
+    padding: 0%;
+    margin-top: -2%;
+    padding-left: 5%;
+    padding-right: 0%;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+h7{
+    padding: 0%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+
+div{
+    margin-bottom: 0px;
+}
+
+/* Top of Page text with my name on it */
+.topPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    padding: 20px; 
+} 
+
+
+
+/* Navigation bar at the top of the page */
+.navbar {
+    display: flex;
+    line-height: 1px;
+    justify-content: center;
+    top:0;
+    left: 0;
+  }
+
+/* List items */
+.navbar ul{
+    list-style-type: none;
+    padding:0%;
+    margin: 0%;
+    /*overflow:auto;*/
+    cursor: pointer;
+   white-space: nowrap; 
+}
+
+.navbar a{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 0%;
+    color: #4c4452;
+    text-decoration: none;
+    /*flex-flow: row nowrap;*/
+    display:block;
+}
+
+/* When the navigation is hovered on */
+.navbar a:hover{
+    color:black;
+    background-color: #b7a4c6;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 1px 5px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*
+.image{
+    justify-content: left;
+    margin-top: 50%;
+    padding-top: 10%;
+}
+    */
+
+/* Picture of me in beginning of page */
+.imageFlex{
+    display:flex;
+    justify-content: center;
+    padding: 0%;
+    background-color: rgb(243, 238, 247);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Picture of me in beginning of page */
+.imageBlog{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-left: 2%;
+    margin-right: 5%;
+    justify-content: center;
+    padding: 0%;
+    padding-top: 5%;
+    background-color: rgb(243, 238, 247);
+    margin-top: 0%;
+
+}
+.imageBlog-left{
+    
+    padding-top: 2%;
+    padding-right: 10%;
+}
+.imageBlog-right{
+    padding-top: 0%;
+}
+
+
+.introBlurb{
+    padding-left: 5%;
+}
+
+.currentPage{
+    background-color: #b7a4c6;
+}
+
+
+.blogGrid{
+    display: grid;
+    grid-template-columns: 5px auto 100pz 1fr;
+    grid-template-rows: 10px 1fr max-content;
+}
+
